@@ -1,9 +1,9 @@
 {
-  "name": "elrond-bridge",
+  "name": "elrond-bridge-transfer",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/cTJakt/elrond-bridge.git",
-  "author": "cTJakt <21521269@zju.edu.cn>",
+  "repository": "https://github.com/decloudf/elrond-bridge.git",
+  "author": "Luke Fan",
   "license": "MIT",
   "scripts": {
     "debug": "nodemon src/index.ts",
@@ -18,8 +18,6 @@
     "posttest": "yarn run lint"
   },
   "dependencies": {
-    "@crustio/type-definitions": "1.2.0",
-    "@polkadot/api": "4.2.2-4",
     "@elrondnetwork/elrond-core-js": "^2.1.0",
     "@elrondnetwork/erdjs": "^9.0.3",
     "dotenv": "^8.2.0",

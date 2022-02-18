@@ -6,6 +6,6 @@ PACKAGE_VERSION=$(cat package.json \
   | awk -F: '{ print $2 }' \
   | sed 's/[",]//g' \
   | tr -d '[[:space:]]')
-IMAGEID="tmp-elrond-bridge:$PACKAGE_VERSION"
-echo "Building tmp-elrond-bridge:$PACKAGE_VERSION ..."
+IMAGEID="elrond-bridge-parser:$PACKAGE_VERSION"
+echo "Building elrond-bridge-parser:$PACKAGE_VERSION ..."
 docker build -t $IMAGEID .

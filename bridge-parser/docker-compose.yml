@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  tmp-elrond-bridge:
-    image: tmp-elrond-bridge
+  elrond-bridge-parser:
+    image: elrond-bridge-parser
     restart: always
     volumes:
       - './logs:/usr/src/logs'

@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  elrond-bridge-transfer:
+    image: elrond-bridge-transfer
+    restart: always
+    volumes:
+      - './logs:/usr/src/logs'
+   
